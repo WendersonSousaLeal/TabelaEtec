@@ -1,0 +1,100 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #004d99;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Cabeçalho da tabela */
+  thead {
+    background-color: #004d99;
+    color: #fff;
+  }
+  
+  th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    border-right: 1px solid #003366;
+  }
+  
+  th:last-child {
+    border-right: none;
+  }
+  
+  /* Corpo da tabela */
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td {
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-right: 1px solid #eee;
+  }
+  
+  td:last-child {
+    border-right: none;
+  }
+  
+  /* Estilos de acordo com a classificação */
+  
+  /* Libertadores */
+  .libertadores {
+    background-color: #e0f7e9;
+    color: #2e7d32;
+  }
+  
+  /* Sul-Americana */
+  .sul-americana {
+    background-color: #e3f2fd;
+    color: #1565c0;
+  }
+  
+  /* Copa do Brasil */
+  .copa-do-brasil {
+    background-color: #fffde7;
+    color: #ffb300;
+  }
+  
+  /* Rebaixamento */
+  .rebaixamento {
+    background-color: #ffebee;
+    color: #c62828;
+  }
+  
+  /* Imagens */
+  td img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
